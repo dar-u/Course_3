@@ -1,0 +1,31 @@
+# Colab config files
+.config/
+logs/
+last_opt_in_prompt.yaml
+last_survey_prompt.yaml
+last_update_check.json
+active_config
+config_sentinel
+default_configs.db
+gce
+hidden_gcloud_config_universe*
+
+# Sample data
+sample_data/
+*.csv
+*.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
